@@ -35,8 +35,6 @@ public class ReserveArray {
 			xxx[i] = scan.nextInt();
 		}
 		
-		reserve(xxx);
-		
 		return xxx;
 	}
 	
