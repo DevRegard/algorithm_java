@@ -2,6 +2,7 @@ package chap02;
 
 import java.util.Scanner;
 
+// 배열 요소 역순으로 뒤집기
 public class ReserveArray {
 
 	//인덱스 요소를 서로 교환하는 메서드
