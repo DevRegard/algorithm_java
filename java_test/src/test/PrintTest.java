@@ -8,6 +8,10 @@ public class PrintTest {
 		System.out.println("-------------------------------");
 	}
 
+	public static void githubConnection() {
+		System.out.println("깃허브 연동 테스트");
+	}
+	
 	public static void main(String[] args) {
 		print();
 	}
