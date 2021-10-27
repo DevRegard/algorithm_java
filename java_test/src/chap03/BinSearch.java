@@ -13,7 +13,6 @@ public class BinSearch {
 		int pl = 0;				// 첫 인덱스
 		int pr = n - 1;			// 끝 인덱스
 		
-		
 		do {
 			int pc = (pl + pr) / 2; // 중간 인덱스
 			if (a[pc] == key) return pc;		// 검색 성공
