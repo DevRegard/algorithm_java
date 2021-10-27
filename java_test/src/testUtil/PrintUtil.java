@@ -36,6 +36,25 @@ public class PrintUtil  {
 		return x;
 	}
 	
+	// 배열 생성 (오름차순)
+	public static int[] scanArrayASC(String testName) {
+		System.out.println(testName);
+		System.out.print("요솟수 : ");
+		int pn = scan.nextInt();
+		int[] x = new int[pn];
+		
+		x[0] = scanInt("첫 요소 입력");
+		
+		for (int i = 1; i < pn; i++) {
+			do {
+				System.out.print("x[" + i + "] : ");
+				x[i] = scan.nextInt();
+			} while (x[i] < x[i - 1]);
+		}
+		return x;
+		
+	}
+	
 	// 정수 입력
 	public static int scanInt(String testName) {
 		System.out.println(testName);
